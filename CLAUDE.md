@@ -6,8 +6,20 @@ Projeto estático sem dependências. Abre diretamente no navegador via `index.ht
 
 - `index.html` — interface do usuário
 - `app.js` — lógica de navegação aleatória (IIFE, vanilla JS)
-- `sites.js` — lista de sites (`var zanzar = { paginas: [...] }`)
+- `sites.js` — lista de sites (`var zanzar = { paginas: [...] }`), **gerado pelo script**
 - `style.css` — estilos
+- `extrair_sites.py` — script Python que lê `brcrawl.sqlite3` e regenera `sites.js`
+- `.gitignore` — ignora `brcrawl.sqlite3` (arquivo local, 1GB, não versionado)
+
+## Dataset
+
+A lista de sites vem do [BR Crawl](https://github.com/guites/brcrawl). Para atualizar:
+
+```bash
+python3 extrair_sites.py
+```
+
+Requer `brcrawl.sqlite3` na raiz do projeto (não versionado). Usa apenas `status_id=1` (feeds verificados).
 
 ## Critérios para sites na lista
 
@@ -26,4 +38,4 @@ Projeto estático sem dependências. Abre diretamente no navegador via `index.ht
 
 ## Como adicionar um site
 
-Editar `sites.js`, adicionar a URL no array `paginas` dentro da categoria adequada.
+Prefira contribuir ao dataset do BR Crawl. Para adição manual pontual, editar `sites.js` diretamente e adicionar a URL no array `paginas`.
