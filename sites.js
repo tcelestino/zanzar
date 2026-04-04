@@ -14,12 +14,6 @@ var zanzar = {
     'https://pythonclub.com.br/',
     'https://www.felipefialho.com/',
     'https://vidadesilicio.com.br/',
-    'https://canaltech.com.br/',
-    'https://olhardigital.com.br/',
-    'https://tecnoblog.net/',
-    'https://www.tecmundo.com.br/',
-    'https://www.hardware.com.br/',
-    'https://gizmodo.uol.com.br/',
     // Jornalismo e política
     'https://www.nexojornal.com.br/',
     'https://theintercept.com/brasil/',
@@ -28,10 +22,7 @@ var zanzar = {
     'https://jacobin.com.br/',
     'https://diplomatique.org.br/',
     'https://www.observatoriodaimprensa.com.br/',
-    'https://www.cartacapital.com.br/',
     'https://www.brasildefato.com.br/',
-    'https://piaui.folha.uol.com.br/',
-    'https://www.poder360.com.br/',
     'https://apublica.org/',
     'https://www.agenciasertao.net/',
     // Cultura e artes
@@ -42,19 +33,15 @@ var zanzar = {
     'https://www.b9.com.br/',
     'https://www.overmundo.com.br/',
     'https://www.culturagenial.com/',
-    'https://www.hypeness.com.br/',
-    'https://www.vice.com/pt/',
     // Cinema e séries
     'https://www.omelete.com.br/',
     'https://www.papodecinema.com.br/',
     'https://cineplayers.com/',
     'https://www.cinema10.com.br/',
-    'https://www.adorocinema.com/',
     'https://www.cinemaemcena.com.br/',
     // Literatura e ideias
     'https://literatortura.com/',
     'https://literaruga.com.br/',
-    'https://www.publishnews.com.br/',
     'https://www.filosofia.com.br/',
     'https://universoracionalista.org/',
     'https://www.ceticismo.net/',
@@ -68,10 +55,6 @@ var zanzar = {
     'https://spotniks.com/',
     // Ciência e educação
     'https://www.cienciahoje.com.br/',
-    'https://www.superinteressante.com.br/',
-    'https://hypescience.com/',
-    'https://www.bbc.com/portuguese',
-    'https://www.nationalgeographicbrasil.com/',
   ],
   ignorar: []
 }
