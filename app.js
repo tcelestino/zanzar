@@ -83,13 +83,7 @@
   }
 
   function abrirSobre() {
-    var lista = document.getElementById('lista-sites')
     var listaHistorico = document.getElementById('lista-historico')
-
-    lista.innerHTML = ''
-    paginas.forEach(function (url) {
-      lista.appendChild(criarItemLista(url))
-    })
 
     listaHistorico.innerHTML = ''
     if (historico.length === 0) {
