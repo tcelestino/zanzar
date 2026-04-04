@@ -25,7 +25,7 @@ A lista de sites é gerada a partir do dataset [BR Crawl](https://github.com/gui
 
 Para atualizar a lista com uma versão mais recente do dataset:
 
-1. Baixe o arquivo `brcrawl.sqlite3` do repositório do BR Crawl
+1. Baixe o arquivo [brcrawl.sqlite3](https://drive.google.com/drive/folders/1_y7BegOcKMOVtbehaGTN9Fn9gP8Lnn1M) do repositório do BR Crawl
 2. Coloque-o na raiz do projeto
 3. Execute o script de extração:
    ```bash
