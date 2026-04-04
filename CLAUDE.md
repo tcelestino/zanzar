@@ -39,3 +39,9 @@ Requer `brcrawl.sqlite3` na raiz do projeto (não versionado). Usa apenas `statu
 ## Como adicionar um site
 
 Prefira contribuir ao dataset do BR Crawl. Para adição manual pontual, editar `sites.js` diretamente e adicionar a URL no array `paginas`.
+
+## Como atualizar a lista
+
+1. Coloque `brcrawl.sqlite3` na raiz do projeto
+2. Rode `python3 extrair_sites.py`
+3. Commit e push do `sites.js` gerado
